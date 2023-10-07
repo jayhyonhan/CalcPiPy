@@ -29,9 +29,9 @@ def func2(k):
     _b.start()
     _c.start()
     print("_a:%s\n_b:%s\n_c:%s"%(_a.name, _b.name, _c.name))
-    #_c.join()
-    #_b.join()
-    #_a.join()
+    _c.join()
+    _b.join()
+    _a.join()
     a = decimal.Decimal(fact_out[0]*(545140134*k+13591409))
     b = decimal.Decimal(fact_out[1]*(fact_out[2]**3)*((-262537412640768000)**k))
     res = a / b
