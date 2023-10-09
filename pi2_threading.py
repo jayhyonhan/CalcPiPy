@@ -1,5 +1,4 @@
 import decimal, threading, sys
-
 fact_out = [0, 0, 0]
 n=int(input("n: "))
 

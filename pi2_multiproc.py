@@ -1,6 +1,7 @@
 import decimal, sys
 from multiprocessing import Process, Manager
 
+
 def main():
     global fact_out
     manager = Manager()
